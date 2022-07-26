@@ -1,0 +1,17 @@
+
+body{
+    text-align: center;
+}
+#left{
+    text-align: left;
+    margin-left: 250px;
+}
+#right{
+    text-align: right;
+    margin-right: 250px;
+}
+button {background-color: #f44336;
+    font-size: 16px;
+    color: white;
+    border-bottom-color: red;
+}

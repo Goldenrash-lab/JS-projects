@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutoSalon</title>
+</head>
+<body>
+<div id="autos">
+
+</div>
+<div id="auto_search">
+
+</div>
+<br>
+<button id="b1">Показать все</button>
+<h2 id="price"></h2>
+<form action="#" method="post">
+    <label>Поиск по ID или модели</label><br>
+    <input type="text" id="id" placeholder="Пример: 1 или BMW">
+    <input type="radio" name="r1" id="search" checked value="search">Искать
+    <input type="radio" name="r1" id="del" value="del">Удалить
+    <input type="radio" name="r1" id="edit" value="edit">Редактировать
+    <input type="button" id="accept" value="Подтвердить">
+</form>
+<br>
+<form action="#" method="post">
+    <h2>Добавление машин</h2>
+    <label>Введите модель</label><br>
+    <input type="text" id="name"><br>
+    <label>Введите цену</label><br>
+    <input type="text" id="cena"><br>
+    <label>Введите дату</label><br>
+    <input type="date" id="date"><br>
+    <label>Фото авто:</label><br>
+    <img src="images/nofoto.png" width="200px">
+    <br>
+    <input type="button" id="send" value="Добавить">
+    <input type="button" id="clear" value="Очистить">
+</form>
+<div id="redact">
+<form action="#" method="post">
+    <h2>Редактирование</h2>
+    <label>Измените название</label><br>
+    <input type="text" id="e_name" value=""><br>
+    <label>Измените цену</label><br>
+    <input type="text" id="e_price" value=""><br>
+    <label>Измените дату</label><br>
+    <input type="date" id="e_date" value=""><br>
+    <input type="hidden" id="e_id" value=""><br>
+    <img src="images/nofoto.png" width="200px"><br>
+    <input type="button" id="e_send" value="Редактировать">
+</form>
+</div>
+<h2 id="error1"></h2>
+<script src="autosalon.js"></script>
+</body>
+</html>
